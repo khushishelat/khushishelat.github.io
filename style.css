@@ -1,5 +1,13 @@
-.jumbotron {
-    background-image: url(landing\ page\ cover.jpg);
-    height: 100% !important;
-}
 
+html { height: 100%; width: 100%; }
+body { height: 100%; width: 100%; display: flex; }
+body > div { flex: 1; }
+
+  .jumbotron {
+    color: white;
+    background-image: url(columbia\ library\ photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
