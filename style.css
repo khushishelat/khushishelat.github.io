@@ -51,5 +51,17 @@
   }
 
   .bg-white {
-      margin-left: 5%; 
+      margin-left: 5%;
+      margin-right: 5%;  
+      
   }
+
+  .container-fluid {
+      align-items: center;
+  }
+
+
+  .display-4 {
+      color: rgb(47,98,162); 
+  }
+
