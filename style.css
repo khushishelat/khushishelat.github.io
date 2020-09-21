@@ -1,6 +1,6 @@
 
 html { height: 100%; width: 100%; }
-body { height: 100%; width: 100%; display: flex; }
+body, header { height: 100%; width: 100%; display: flex; }
 body > div { flex: 1; }
 
   .jumbotron {
@@ -13,14 +13,14 @@ body > div { flex: 1; }
   }
 
   .text-right {
-      top: 25%; 
+      top: 30%; 
       position: absolute; 
-      right: 10%; 
-      max-width: 35%;
+      right: 5%; 
+      max-width: 45%; 
   }
 
   .navbar {
-    background-color:#2f62a2;
+    background-color:rgb(47,98,162);
 }
 
 .top-nav-collapse {
@@ -31,4 +31,18 @@ body > div { flex: 1; }
     .navbar {
         background-color: #4285F4;
     }
+}
+
+.highlight {
+    display: inline;
+    background: rgb(47,98,162, 0.8);
+    color: #fff;
+    padding: 2px;
+    word-wrap: break-word;
+}
+.highlight-shadow {
+    position: relative;
+    left: 10px;
+    padding-left: 0;
+    box-shadow: 10px 0 0 rgb(47,98,162, 0.8), -10px 0 0 rgb(47,98,162, 0.8);
 }
