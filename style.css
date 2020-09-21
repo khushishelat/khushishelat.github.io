@@ -11,3 +11,24 @@ body > div { flex: 1; }
     background-size: cover;
     height: 100vh;
   }
+
+  .text-right {
+      top: 25%; 
+      position: absolute; 
+      right: 10%; 
+      max-width: 35%;
+  }
+
+  .navbar {
+    background-color:#2f62a2;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
